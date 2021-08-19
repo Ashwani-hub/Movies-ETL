@@ -1,0 +1,9 @@
+Wiki                                 Movielens                         Resolution
+-----------------------------------------------------------------------------------------------------------------
+title_wiki                           title_kaggle                      Drop Wikipedia.
+running_time                         runtime                           Keep Kaggle; fill in zeros with Wikipedia data
+budget_wiki                          budget_kaggle                     Keep Kaggle; fill in zeros with Wikipedia data
+box_office                           revenue                           Keep Kaggle; fill in zeros with Wikipedia data
+release_date_wiki                    release_date_kaggle               Wikipedia missing 11 entries, Drop Wikipedia data
+Language                             original_language                 Drop Wikipedia data (Kaggle data is already in usable form
+Production company(s)                Production_companies              Drop Wikipedia data (Kaggle data is more consistent)
